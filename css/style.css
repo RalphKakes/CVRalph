@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
+footer{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+article{
+	text-align: center;
+}
+
+.icons{
+	display: block;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 3px;
+    margin-bottom: 20px;
+    box-sizing: inherit;
+}
+

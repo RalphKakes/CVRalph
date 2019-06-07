@@ -1,0 +1,91 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+      <!--De browser laten weten dat de website is geoptimaliseerd voor mobiel-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+
+     <nav class="nav-wrapper indigo">
+      <div class="container">
+      <a href="#" class="brand-logo right">Ralph Kakes</a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-links"> 
+        <i class="material-icons">menu</i>
+        <ul class="left hide-on-med-and-down">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a class="waves-effect waves-blue btn-medium" href="index.html">Home</a></li>
+        <li><a class="waves-effect waves-blue btn-medium" href="Over.html">Over</a></li>
+        <li><a class="waves-effect waves-blue btn-medium" href="contact.html">Contact</a></li>
+        <li><a class="waves-effect waves-blue btn-medium" href="photos.html">Photo's</a></li>
+      </ul>
+    </div>
+  </nav> 
+       
+      <ul class="sidenav" id="mobile-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="over.html">Over</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="photos.html">Photo's</a></li>
+      </ul>
+
+      <div class="container ">
+    <h1>Photo Gallery</h1>
+    <p>Dit zijn wat screenshots van wat opdrachten die ik heb gemaakt.</p>
+
+    <div class="row card">
+      
+      <div class="col s12 m6 l4" onclick="M.toast({html: 'Dit is lingo'})">
+        <img src="img/lingo.png" class="materialbox responsive-img card">
+      </div>
+      <div class="col s12 m6 l4">
+        <img src="img/outlast.png" class="materialbox responsive-img card">
+      </div>
+      <div class="col s12 m6 l4">
+        <img src="img/goedephp.png" class="materialbox responsive-img card">
+      </div>
+
+
+      <div class="col s12 m6 l4">
+        <img src="img/lingojs.png" class="materialbox responsive-img card">
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <img src="img/gamejs.png" class="materialbox responsive-img card">
+      </div>
+      <div class="col s12 m6 l4">
+        <img src="img/phpcode.png" class="materialbox responsive-img card">
+      </div>
+      
+     </div>
+
+  </div>
+
+        
+        <footer><a href="https://www.linkedin.com/in/ralph-kakes/" target="_blank">Click here for my linkedin </a><i class="fab fa-linkedin">  © 2019 Ralph Kakes </i></footer>
+
+    </body>
+      <!--JavaScript at end of body for optimized loading-->
+             <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="materialize/js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <script> $(document).ready(function(){
+        $('.sidenav').sidenav();
+        })
+      </script>
+      <script>
+        $(document).ready(function(){
+        $('.materialbox').materialbox();
+    
+        });
+      </script>
+
+    </body>
+  </html>

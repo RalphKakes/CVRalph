@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+      <!--De browser laten weten dat de website is geoptimaliseerd voor mobiel-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+
+     <nav class="nav-wrapper indigo">
+      <div class="container">
+      <a href="#" class="brand-logo right">Ralph Kakes</a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-links"> 
+        <i class="material-icons">menu</i>
+        <ul class="left hide-on-med-and-down">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a class="waves-effect waves-blue btn-medium" href="index.html">Home</a></li>
+        <li><a class="waves-effect waves-blue btn-medium" href="Over.html">Over</a></li>
+        <li><a class="waves-effect waves-blue btn-medium" href="contact.html">Contact</a></li>
+        <li><a class="waves-effect waves-blue btn-medium" href="photos.html">Photo's</a></li>
+      </ul>
+    </div>
+  </nav>
+
+    <body>
+      <article>
+      <div class="container">
+        <h1>Hoi! dit is Ralph</h1>
+        <img class="circle" src="img/ralph.jpg">
+        <p>Ik ben Ralph Kakes, 18 jaar en studeerd aan het davinci college in Dordrecht. Op het davinci college studeer ik applicatie ontwikkeling en media ontwikkelaar. </p>
+      </div>
+    </article>
+    <footer><a href="https://www.linkedin.com/in/ralph-kakes/" target="_blank">Click here for my linkedin </a><i class="fab fa-linkedin">  © 2019 Ralph Kakes </i></footer>
+    </body>
+       
+      <ul class="sidenav" id="mobile-links">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="over.html">Over</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="photos.html">Photo's</a></li>
+      </ul>
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+             <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="materialize/js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <script> $(document).ready(function(){
+        $('.sidenav').sidenav();
+        })
+      </script>
+    </body>
+  </html>
